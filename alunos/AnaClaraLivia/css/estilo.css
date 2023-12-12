@@ -1,0 +1,195 @@
+body{
+	margin: 0px;
+	font-family: sans-serif,Arial;
+}
+#pai{
+	display: 
+	flex-direction: column;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+}
+.filho1{
+	width: 100%px;
+	height: 120px;
+	background-color: #228937;	
+	margin-bottom: 10px;
+}
+.fi2{
+	display: flex;
+	flex-direction: row;
+}
+.pai2{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height:200px;
+}
+.pai3{
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height:200px;
+}
+.pai4{
+	display: flex;
+	flex-direction: row;
+	width: 200px
+	height: 200px;
+}
+.pai5{
+	display: flex;
+	flex-direction: row;
+	width: 200px
+	height:200px;
+}
+.pai6{
+	width: 200px
+	height:200px;
+}
+.pai7{
+	display:flex;
+	flex-direction: row;
+	background-color: white;
+	height: 60px;
+	background-color: darkgreen;
+}
+.texto{
+	background-color: white;
+	width: 80px;
+	flex-direction: row;
+	display: flex;
+	font-size: 10px;
+	margin-left: 200px;
+}
+#mat1{
+	margin-top: 85px;
+	margin-left: -160px;
+}
+#port1{
+	margin-top: 85px;
+	margin-left: 200px;
+}
+#pdw1{
+	margin-left: 100px;
+}
+#fe1{
+	margin-top: 85px;
+	margin-left: 300px;
+}
+#rot{
+	font-size: 25px;
+	margin-right: 60px;
+	color:medium :green;
+}
+#if{
+	width: 380px;
+	height: 130px;
+}
+.dad1{
+	background-color: white;
+	flex-direction: row;
+}
+.td1{	
+	background-color: white; 
+}
+#mat{
+	margin-left: 10px;
+	height: 270px;
+	width: 20%;
+	margin-right: 30px;
+}
+#port{
+	height: 30%;
+	width: 20%;
+	margin-right: 30px;
+}
+#pdwefe{
+	height: 290px;
+	width: 20%;
+	margin-right: 30px;
+}
+#rot{
+	margin-top: 18px;
+	margin-left: 55px;
+}
+#fe{
+	height: 20%;
+	width: 20%;
+	margin-right: 30px;
+}
+#q1{
+	height: 400px;
+	width: 200px;
+}
+#q2{
+	height: 400px;
+	width: 200px;
+}
+#q3{
+	height: 400px;
+	width: 200px;
+}
+#q4{
+	height: 400px;
+	width: 200px;
+}
+#q5{
+	height: 400px;
+	width: 200px;
+}
+#q6{
+	height: 400px;
+	width: 200px;
+}
+#q7{
+	height: 400px;
+	width: 200px;
+}#q8{
+	height: 400px;
+	width: 200px;
+}
+#q9{
+	height: 400px;
+	width: 200px;
+}
+#q10{
+	height: 400px;
+	width: 200px;
+}
+.q{
+	flex-direction: row;
+	display: flex;
+	margin-left: 170px;
+}
+.qs{
+	flex-direction: row;
+	display: flex;
+	margin-left: 170px;
+}
+#mat2{
+	margin-top: 10px;
+	margin-left: 12px;
+	width: 280px;
+}
+#port2{
+	margin-top: -70px;
+	margin-left: 310px;
+	width: 280px;
+}
+#pdwefe2{
+	margin-top: -70px;
+	margin-left: 620px;
+	width: 270px;
+}
+#video{
+	margin-left: 25px;
+	margin-top: 50px;
+}
+#projeto1{
+	text-align: center;
+}
+#fi6{
+	margin-left: 15px;
+}
