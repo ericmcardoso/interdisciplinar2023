@@ -1,0 +1,174 @@
+.pai{
+	display: flex; /*Transforma um pai em flex container*/
+	flex-direction: row; /*Definir a direção dos filhos*/
+	flex-wrap: wrap; /*Permite ou não a quebra de linha*/
+	justify-content: flex-start; /*Alinha os flihos no eixo principal*/
+	; /*Alinha os filhos na direção do eixo secundário (cross axis)*/
+}
+.filho1{
+	display: flex;
+	width: 100%;
+	height: 20vh;
+	background-color: #228B22; /*verde*/
+	justify-content: space-between;
+	align-items: center;
+}
+.juro{
+	display: flex;
+	width: 100%;
+	height: 20vh;
+	background-color: lightgray; /*verde*/
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	color: yellow;
+
+}
+.filho2{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	font-family: sans-serif;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 25px;
+	justify-content: space-between;
+	.img{
+		height: 30vh;
+		width: 20%;
+	}
+}
+input{
+	color: black;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-right: 30px; 
+
+}
+.filho3{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+.filho4{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+p{
+	font-family: sans-serif;
+	color: black;
+}
+.filho5{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+
+}
+.filho6{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+
+}
+.filho7{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+.filho8{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+.filho9{
+	display: flex;
+	width: 20%;
+	height: 30vh;
+	background-color: gray;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+
+a{
+	font-family: sans-serif;
+	color: black;
+}
+body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #E0FFFF; /*ciano claro*/
+}
+footer{
+	background-color: green;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+inframe{
+	width: 20%;
+	height: 30vh;
+}
+li{
+	padding: 10px;
+	color: #0000FF;
+	margin: 20px;
+}
+@media (max-width: 760px){
+	.filho1{
+		width: 100%;
+	}
+	.filho2{
+		width: 50%;
+	}
+	.filho3{
+		width: 50%;
+	}
+	.filho4{
+		width: 50%;
+	}
+	.filho5{
+		width: 50%;
+	}
+	.filho6{
+		width: 50%;
+	}
+	.filho7{
+		width: 50%;
+	}
+}
