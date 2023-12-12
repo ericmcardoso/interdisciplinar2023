@@ -1,0 +1,148 @@
+body{
+    overflow-x: hidden; 
+  }
+  *{
+     margin: 0%;
+  }
+  
+
+header{
+    width: 100%;
+	height: 10vh;
+}
+
+.fundo{
+  background-color:rgb(204, 222, 231);
+  height: 100%;
+}
+
+.logo{
+margin-left: 3.5%;
+margin-top: -1%;
+float: left;
+}
+
+.menu4{
+  color: black;
+  margin: 0.5%;
+  float: left;
+  margin-top: -6%;
+  cursor: pointer;
+  margin-left: -25%;
+}
+
+
+.minhaconta1{
+  color: black;
+  margin-top: -4%;
+  margin-left: 90%;
+  float: left;
+  cursor: pointer;
+}
+
+  .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .coluna7,.coluna8{
+    width: 20%;
+    height: 50vh;
+    margin-top: 2%;
+    margin-left: 4%;
+    float: left;
+    background-color: rgb(218, 130, 188);
+    border-radius: 5%;
+  }
+
+  .titulodacoluna{
+    text-align: center;
+    color: white;
+  }
+
+
+  .botao{
+     text-align: center;
+     margin-top: 52%;
+  }
+
+
+  footer{
+	width: 100%;
+	height: 10vh;
+  margin-top: 2%;
+  background-color: rgb(204, 222, 231);
+  float: left;
+  text-align: center;
+}
+
+
+.paragrafo{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15%
+  }
+
+
+.paragrafo8{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8%
+  }
+
+  .paginadicas{
+    background-color: rgb(218, 130, 188);
+    border-radius: 5%;
+  }
+
+@media (max-width: 960px){
+
+  .logo{
+    margin-top: -2%;
+  }
+  
+    .menu4{
+      margin-left: -60%;
+      margin-top: -6%;
+  }
+  
+  
+   .minhaconta1{
+          margin-left: 4%;
+          float: left;
+          margin-top: -6%;
+      }
+  
+
+
+    .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .coluna7, .coluna8{
+        width: 40%;
+        height: 50vh;
+        float: left;
+        margin-left: 8%;
+      }
+
+      
+      iframe{
+        height: 98%;
+        width: 88%;
+        margin-left: 4%;
+      }
+
+      body{
+        font-size: 12px;
+      }
+      
+      .paragrafo1{
+        margin-top: 13%
+      }
+
+      .botao{
+        margin-left: 4%;
+        margin-top: 7%;
+      }
+      
+    
+ 
+    
+  
+    
+    
+}
