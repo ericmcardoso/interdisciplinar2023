@@ -1,0 +1,626 @@
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 2246px;
+  margin: 0 auto;
+  background: rgb(255, 249, 235);
+  overflow: hidden;
+}
+.section {
+  position: relative;
+  width: 1440px;
+  height: 220px;
+  margin: 0 0 0 0;
+  background: rgb(94, 148, 102);
+  z-index: 17;
+}
+.img {
+  position: absolute;
+  width: 193px;
+  height: 193px;
+  top: 14px;
+  left: 38px;
+  background: url(./assets/images/c69943ac-dddd-4bd3-a4ef-a8b26bf4ac60.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.group {
+  position: absolute;
+  width: 129px;
+  height: 47px;
+  top: 96px;
+  left: 1241px;
+  z-index: 21;
+}
+.text {
+  position: absolute;
+  height: 56px;
+  top: 0;
+  left: 0;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  z-index: 19;
+}
+.img-2 {
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  top: 11px;
+  left: 87px;
+  background: url(./assets/images/1d6297ed-cba2-40fe-aff5-b69665412b5f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+}
+.img-3 {
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  top: 21px;
+  left: 87px;
+  background: url(./assets/images/b7982878-e816-47ad-84c4-911cab55665d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.group-2 {
+  position: relative;
+  width: 590px;
+  height: 136px;
+  margin: 48px 0 0 425px;
+  z-index: 5;
+}
+.section-2 {
+  position: absolute;
+  width: 590px;
+  height: 136px;
+  top: 0;
+  left: 0;
+  background: rgb(197, 216, 199);
+  border-radius: 50px;
+}
+.text-2 {
+  position: absolute;
+  width: 570px;
+  height: 132px;
+  top: 4px;
+  left: 10px;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(157, 140, 116);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -2.4000000000000004px;
+  letter-border: 1px solid rgb(246, 237, 216);
+  z-index: 5;
+}
+.section-3 {
+  position: relative;
+  width: 1301px;
+  height: 144.179px;
+  margin: 26px 0 0 66px;
+  background: rgb(220, 191, 150);
+  z-index: 13;
+  border-radius: 25px;
+}
+.text-3 {
+  position: absolute;
+  height: 138px;
+  top: 0;
+  left: 2px;
+  font-family: Domine, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(85, 50, 0);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 1.35px;
+  z-index: 13;
+}
+.group-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1410px;
+  height: 362px;
+  margin: 62.821px 0 0 10px;
+  z-index: 25;
+}
+.img-4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 300px;
+  height: 362px;
+  background: url(./assets/images/faf95134-8a05-463a-9a9e-805ab8a51fd0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+.img-5 {
+  flex-shrink: 0;
+  position: relative;
+  width: 300px;
+  height: 362px;
+  background: url(./assets/images/d3655b3c-10ce-4dcb-8e76-c0740cebc84e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
+.img-6 {
+  flex-shrink: 0;
+  position: relative;
+  width: 300px;
+  height: 362px;
+  background: url(./assets/images/732fac5c-90ad-4d8a-b88a-b123353c4cd2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.img-7 {
+  flex-shrink: 0;
+  position: relative;
+  width: 300px;
+  height: 362px;
+  background: url(./assets/images/92fb70f6-553b-44bf-9757-2414b37d2d96.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 22;
+}
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 94px;
+  margin: 116px 0 0 0;
+  background: rgba(220, 191, 150, 0.48);
+  z-index: 3;
+}
+.wrapper-2 {
+  position: absolute;
+  width: 1440px;
+  height: 94px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 8;
+}
+.text-w {
+  position: absolute;
+  height: 60px;
+  top: 21px;
+  left: 568px;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(157, 140, 116);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -2.4000000000000004px;
+  border: 1px solid rgb(246, 237, 216);
+  z-index: 4;
+}
+.section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1220px;
+  height: 624px;
+  margin: 51px 0 0 110px;
+  z-index: 15;
+  border-radius: 10px;
+}
+.text-5 {
+  flex-shrink: 0;
+  position: relative;
+  height: 42px;
+  font-family: Barlow Condensed, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  letter-spacing: 3.5px;
+  z-index: 15;
+}
+.group-4 {
+  position: relative;
+  width: 1440px;
+  height: 290px;
+  margin: 72px 0 0 0;
+  background: rgba(94, 148, 102, 0.68);
+  z-index: 2;
+}
+.img-8 {
+  position: absolute;
+  width: 392px;
+  height: 138px;
+  top: 76px;
+  left: 524px;
+  background: url(./assets/images/a31e08df-f3b1-42d6-b698-6bed35418548.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.text-6 {
+  position: absolute;
+  height: 50px;
+  top: 201px;
+  left: 352px;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(246, 237, 216);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  z-index: 7;
+}
+
+ul li ul{
+  display: none;
+}
+ul li{
+  display: block;
+}
+option{
+  position: absolute;
+  height: 56px;
+  top: 0;
+  left: 0;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  z-index: 66;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 2500px;
+  margin: 0 auto;
+  background: rgb(255, 249, 235);
+  overflow: hidden;
+}
+.group-a {
+  position: relative;
+  width: 1440px;
+  height: 220px;
+  margin: -222px 0 0 0;
+  background: rgb(94, 148, 102);
+}
+.img {
+  position: absolute;
+  width: 193px;
+  height: 193px;
+  top: 14px;
+  left: 38px;
+  background: url(./assets/images/cbc3697c-a209-4108-937b-697c1ae580ca.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.group-c {
+  position: absolute;
+  width: 129px;
+  height: 47px;
+  top: 96px;
+  left: 1241px;
+  z-index: 9;
+}
+.text-b {
+  position: absolute;
+  height: 56px;
+  top: 0;
+  left: 0;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  z-index: 4;
+}
+.img-b {
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  top: 11px;
+  left: 87px;
+  background: url(./assets/images/c36aa93a-97bc-48c9-b011-8bf07fe75e6e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.pic-a{
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  top: 21px;
+  left: 87px;
+  background: url(./assets/images/cd3a2798-e7f0-4aad-96cd-144a0c483a79.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.group-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1440px;
+  height: 94px;
+  margin: 38px 0 0 0;
+  background: rgba(220, 191, 150, 0.48);
+  z-index: 5;
+}
+.text-b {
+  flex-shrink: 0;
+  position: relative;
+  height: 60px;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(157, 140, 116);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -2.4000000000000004px;
+  border: 1px solid rgb(246, 237, 216);
+  z-index: 5;
+}
+.section-a {
+  position: relative;
+  width: 1404px;
+  height: 386px;
+  margin: 66px 0 0 14px;
+  z-index: 13;
+}
+.img-c {
+  position: absolute;
+  width: 368px;
+  height: 386px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/963528bf-1f5e-4078-944d-533b3c6ad669.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.pic-b {
+  position: absolute;
+  width: 247px;
+  height: 386px;
+  top: 0;
+  left: 407px;
+  background: url(./assets/images/1e4fed61-703b-4d32-b21a-fa1aefd47a2c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.img-4 {
+  position: absolute;
+  width: 290px;
+  height: 386px;
+  top: 0;
+  left: 693px;
+  background: url(./assets/images/74a0d966-b12e-4630-a02e-287a43017cc6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.img-d {
+  position: absolute;
+  width: 394px;
+  height: 386px;
+  top: 0;
+  left: 1010px;
+  background: url(./assets/images/8a5afb36-030a-41f0-a23c-1aae4e3928c6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.section-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1404px;
+  height: 343px;
+  margin: 51px 0 0 14px;
+  z-index: 16;
+}
+.pic-c {
+  flex-shrink: 0;
+  position: relative;
+  width: 651px;
+  height: 343px;
+  background: url(./assets/images/1df0eb55-4147-4241-9670-b71e5ddd6345.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+  width: 693px;
+  height: 343px;
+  z-index: 16;
+}
+.pic-d {
+  flex-shrink: 0;
+  position: relative;
+  width: 353px;
+  height: 343px;
+  background: url(./assets/images/846d23fd-45a6-4a3e-bc86-dc4f91aaa0d3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+}
+.pic-e {
+  flex-shrink: 0;
+  position: relative;
+  width: 279px;
+  height: 343px;
+  background: url(./assets/images/a83b9284-c471-4ee6-9695-0233f3964f5c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.section-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1401px;
+  height: 297px;
+  margin: 51px 0 0 17px;
+  z-index: 18;
+}
+.img-f {
+  flex-shrink: 0;
+  position: relative;
+  width: 651px;
+  height: 297px;
+  background: url(./assets/images/e373cf57-9018-428c-a3dc-8ed481447a9f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.pic-f {
+  flex-shrink: 0;
+  position: relative;
+  width: 659px;
+  height: 297px;
+  background: url(./assets/images/3262e360-49ed-4b05-97a3-0a1a1a80ee22.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.group-e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 903px;
+  height: 405px;
+  margin: 49px 0 0 254px;
+  z-index: 20;
+}
+.pic-g {
+  flex-shrink: 0;
+  position: relative;
+  width: 505px;
+  height: 403px;
+  background: url(./assets/images/48063569-d1d2-4231-88e9-f3fc9269122a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.pic-h {
+  flex-shrink: 0;
+  position: relative;
+  width: 224px;
+  height: 405px;
+  background: url(./assets/images/03e111eb-ca88-4e4f-b08d-831037a92680.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.wrapper-a{
+  position: relative;
+  width: 1440px;
+  height: 290px;
+  margin: 165px 0 0 0;
+  background: rgba(94, 148, 102, 0.68);
+  z-index: 1;
+}
+.pic-i {
+  position: absolute;
+  width: 392px;
+  height: 138px;
+  top: 44px;
+  left: 524px;
+  background: url(./assets/images/4970ed1c-c997-41fd-8ffa-2e0a95cd0e1a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.text-c {
+  position: absolute;
+  height: 50px;
+  top: 169px;
+  left: 352px;
+  font-family: Amarante, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: rgb(246, 237, 216);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  z-index: 7;
+}
+@media(max-width: 760px){
+  .main-container, .section, .img, .group, .text, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .group-2, .group-3, .text-2, .text-3, .text-4, .text-5, .text-6, .text-w, .text-c, .text-b, .text-a, .pic-a, .pic-b, .pic-c, .pic-d, .pic-e, .pic-d, .pic-f, .pic-g, .pic-h, .pic-i, .img-a, .img-b, .img-c, .img-d, .img-e, .img-f, .img-g, .img-h, .img-i, .img-j, .wrapper, .wrapper-2, .wrapper-a{
+    width: 100%;
+    display: block;
+    display: table-column;
+  }
+}
