@@ -1,0 +1,158 @@
+
+
+.verde{
+    width: 100%;
+    height: 10vh;
+    background-color: green;
+    font-family: monospace;
+    font-size: 25px;
+    color:#FFFFFF;
+   
+}
+ h1{
+    text-align: center;
+
+ }
+.branco{
+    width: 100%;
+    height: 55vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2{
+     font-family: cursive;
+                                            
+}
+
+.quadro1{
+    width: 20%;
+    height: 50vh;
+    background-color:#FA8072;
+    margin: 3vh;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color:#CE0000;
+
+
+
+
+}
+.quadro2{
+    width: 20%;
+    height: 50vh;
+    background-color:#BCC7FF;
+    margin: 3vh;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color:#0007AD;
+
+}
+.quadro3{
+    width: 20%;
+    height: 50vh;
+    background-color:#FFDE9D;
+    margin: 3vh;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color:#C99D00;
+
+}
+.quadro4{
+    width: 20%;
+    height: 50vh;
+    background-color:#A0FFC1;
+    margin: 3vh;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color:#0F710E;
+
+}
+.branco2{
+     width: 100%;
+    height: 55vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.retangulo{
+    width: 65%;
+    height: 40vh;
+    background-color:#A0FFC1;
+    margin: 3vh;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color:#0F710E;
+
+
+}
+.quadrado{
+    width: 24%;
+    height: 40vh;
+    background-color:#FA8072;
+    margin: 3vh;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color:#CE0000;
+
+}
+.verde2{
+    width: 100%;
+    height: 20vh;
+    background-color: green;
+    font-family: monospace;
+    font-size: 20px;
+    color:#FFFFFF;
+    margin-top: 6vh;
+
+  
+    
+}
+img{
+    
+    margin-left: 2vh;
+    margin-top: 2vh;
+   
+    
+
+}
+a{
+    font-size: 40px;
+    font-family: monospace;
+    margin-left: 10vh;
+    color:#CE0000 ;
+  }
+  @media (max-width: 760px) {
+    .verde, .branco, .quadro1, .quadro2, .quadro3, .quadro4,
+    .branco2, .retangulo, .quadrado, .verde2{
+        width: 100%;
+    }
+  }
+  @media (max-width: 480px){
+    width: 50%;
+    font-size: 10px;
+  }
+  @media(max-width:767px){
+    width: 50%;
+
+  }
+  @media(min-width: 768px) and (max-width: 979px){
+    width: 50%;
+
+  }
+  @media(min-width: 1200px){
+    width: 100%;
+
+  }

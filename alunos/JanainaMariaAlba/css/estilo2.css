@@ -1,0 +1,203 @@
+body{
+    overflow-x: hidden; 
+  }
+  *{
+     margin: 0%;
+  }
+  
+
+header{
+    width: 100%;
+	height: 10vh;
+}
+
+  .menu1{
+      color: #FF1493;
+      margin: 0.5%;
+      margin-left: 6%;
+      margin-top: 1%;
+      float: left;
+      cursor: pointer;
+  }
+  
+  .menu2{
+    color: #FF00FF;
+    margin: 0.5%;
+    margin-top: 1%;
+    float: left;
+    cursor: pointer;
+}
+
+.menu3{
+    color: #FF1493;
+    margin: 0.5%;
+    margin-top: 1%;
+    float: left;
+    cursor: pointer;
+}
+
+  .menu4{
+      color: #FF00FF;
+      margin: 0.5%;
+      float: left;
+      margin-left: 15%;
+      margin-top: 1%;
+      cursor: pointer;
+  }
+  
+
+  
+  
+  .assinatura1{
+      color: #FF1493;
+      margin: 8px;
+      margin-left: 15%;
+      margin-top: 1%;
+      float: left;
+      cursor: pointer;
+  }
+  
+  .minhaconta1, .email1{
+      color: #FF00FF;
+      margin: 0.5%;
+      margin-top: 1%;
+      float: left;
+      cursor: pointer;
+  }
+
+  .email1{
+    color: #FF1493;
+  }
+  
+  .fundo{
+      background-color:#FFC0CB;
+      height: 100%;
+  }
+
+  .logo{
+    margin-left: 5%;
+  }
+
+  .coluna1, .coluna2, .coluna3, .coluna4{
+    width: 20%;
+    height: 50vh;
+    margin-top: 2%;
+    margin-left: 4%;
+    float: left;
+    background-color: rgb(243, 171, 195);
+  }
+
+   .linhahorizontal2{
+    width: 44%;
+    height: 50vh;
+    background-color: palevioletred;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+  }
+
+  .botoes{
+     text-align: center;
+     margin-top: 4%;
+  }
+
+  .mais{
+     color: purple;
+     height: 3%;
+     margin-top: 2%;
+  }
+
+  .pagina2{
+    margin-left: 1%;
+    background-color: rgb(218, 130, 188);
+    margin-top: 2%;
+ }
+
+  footer{
+	width: 100%;
+	height: 10vh;
+    margin-top: 2%;
+	background-color: #FFC0CB;
+	float: left;
+    text-align: center;
+}
+
+.Titulo{
+    color: rgb(207, 46, 207);
+    text-align: center;
+    margin-top: 1%;
+}
+
+  .final{
+    color: #FF1493;
+  }
+
+.retangulo1{
+    width: 44%;
+    height: 50vh;
+    margin-top: 2%;
+    margin-left: 4%;
+    float: left;
+    background-color: rgb(243, 171, 195);
+}
+
+
+@media (max-width: 960px){
+
+    .menu1, .menu2, .menu3{
+        width: 10%;
+        font-size: 8px;
+        margin-top: 3%;
+    }
+
+    .assinatura1, .minhaconta1, .email1{
+        font-size: 6px;
+        margin-left: 4%;
+        float: left;
+        margin-top: 3.7%;
+    }
+
+    .menu4{
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+
+
+    .coluna1, .coluna2, .coluna3, .coluna4{
+        width: 40%;
+        height: 50vh;
+        float: left;
+        margin-left: 8%;
+      }
+
+      .linhahorizontal2{
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+      }
+    
+      iframe{
+        height: 100%;
+        width: 100%;
+        margin-left: 4%;
+      }
+
+      body{
+        font-size: 12px;
+      }
+      
+      .paragrafo1{
+        margin-top: 13%
+      }
+
+      .retangulo1{
+        background-color: white;
+      }
+      
+    
+ 
+    
+  
+    
+    
+}
