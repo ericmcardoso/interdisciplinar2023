@@ -1,0 +1,152 @@
+.flexcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+#logo {
+	padding-left: 60px;
+	padding-top: 16px;
+}
+
+.flexitem1 {
+	width: 15%;
+	height: 20vh;
+	background-color: #075d16;
+}
+.flexitem2 {
+	width: 85%;
+	height: 20vh;
+	background-color: #075d16;
+}
+.flexitem6 {
+	width: 100%;
+	height: 20vh;
+	background-color: #075d16;
+}
+.indexador {
+	margin-left: 900px;
+	color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 45px;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+.indexador:hover {
+    background-color: white;
+    color: black;
+}
+.paragrafo {
+	font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 300px;
+    padding-right: 350px;
+    text-align: center;
+    font-weight: bolder;
+}
+.botao-final {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 550px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.botao-final:hover {
+    background-color: #000;
+    color: #fff;
+}
+.final {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	padding-top: 50px;
+}
+.final2 {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	padding-top: 35px;
+}
+.quadrinhos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.quadrinho {
+    width: 100%;
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-left: 400px;
+}
+
+p {
+	font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 270px;
+    padding-right: 250px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 270px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+iframe {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .flexcontainer {
+        flex-direction: column;
+    }
+
+    .indexador {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .paragrafo,
+    .botao-final,
+    .final,
+    .final2,
+    h1,
+    p,
+    ul,
+    li,
+    iframe {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

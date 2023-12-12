@@ -1,0 +1,112 @@
+.pai{
+	width: 100%;
+	background-color: black;
+	 height:100vh;
+ 
+ display: flex;
+ flex-wrap: wrap;
+
+}
+body{
+	background-color: black;
+}
+.filho1{
+	width: 100%;
+	height: 10vh;
+	background-color: rgb(84,52,124)
+;
+	display:flex;
+	 
+}
+h1{
+	color: white;
+}
+.filho2{
+	width: 100%;
+ height: 1vh;
+ background-color: black;
+ display:flex;
+ text-align: center;
+ margin-left: 630px;
+ 
+}
+.filho3{
+width: 30%;
+	display:flex;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	
+
+
+}
+footer{
+	background-color: rgb(84,52,124)
+;
+	padding: 7px;
+	text-align: center;
+
+
+}
+.filho4{
+width: 30%;
+	display:flex;
+	margin-bottom: 30px;
+	margin-right: 90px;
+
+
+}
+.filho5{
+width: 10%;
+	display:flex;
+	margin-top: 20px;
+	margin-right: 200px;
+	
+
+	
+
+
+}
+.filho6{
+width: 10%;
+	display:flex;
+	margin-bottom: 30px;
+	margin-left: 20px;
+
+
+
+}
+.filho7{
+width: 10%;
+	display:flex;
+	margin-bottom: 30px;
+	
+	margin-left: 170px;
+
+
+}
+.filho8{
+width: 10%;
+	display:flex;
+	margin-bottom: 30px;
+	
+	margin-left: 150px;
+
+
+}
+.filho9{
+width: 10%;
+	display:flex;
+	margin-bottom: 30px;
+
+	margin-left: 150px;
+
+
+}
+.filho10{
+width: 10%;
+	display:flex;
+	margin-bottom: 30px;
+	margin-left: 150px;
+
+
+}

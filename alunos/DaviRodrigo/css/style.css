@@ -1,0 +1,170 @@
+body{
+	background-color: lightgrey;
+	font-family: sans-serif, Arial;
+	margin: 0;
+}
+.pai{
+	flex-direction: column;
+	display: flex;
+}
+.cabecalho{
+	background-color: grey;
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#if1{
+	margin-top: 14px;
+	margin-left: 20px;
+	height: 78%;
+}
+#saiba{
+	margin-left: 1380px;
+	margin-top: -30px;
+	font-size: 15px;
+}
+#port{
+	font-size: 20px;
+	margin-left: 200px;
+	margin-top: 100px;
+	margin-right: 110px;
+}
+#imgs{
+	display: flex;
+	flex-direction: row;
+}
+#mat{
+	font-size: 20px;
+	margin-top: -290px;
+	margin-left: 520px
+}
+#pdw {
+	font-size: 20px;
+	margin-left: 780px;
+	width: 20px;
+    margin-top: -290px;
+    margin-right: 140px;
+    display: flex;
+}
+
+#pdw span {
+    display: inline;
+    margin-right: 10px;
+}
+#fntend span {
+	display: inline;
+    margin-right: 10px;
+}
+#fntend{
+	margin-left: 1150px;
+	font-size: 20px;
+	margin-top: -345px;
+	display: flex;
+}
+#escritas1{
+	margin-left: 140px;
+	max-width: 250px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 15px;
+}
+#escritas2{
+	margin-left: 460px;
+	max-width: 265px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 15px;
+}
+#escritas3{
+	margin-left: 790px;
+	max-width: 250px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 15px;
+}
+#escritas4{
+	margin-left: 1080px;
+	max-width: 250px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 15px;
+}
+.footer1{
+	margin-top: 150px;
+	background-color: grey;
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.footer2{
+	background-color: grey;
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.pai2{
+	margin-left: 300px;
+}
+#p2{
+	margin-left: -16px;
+}
+#p4{
+	margin-left: -16px;
+}
+.imgtamanho1{
+	width: 190px;
+}
+.imgtamanho2{
+	width: 400px;
+}
+.imgtamanho3{
+	margin-left: 2px;
+	width: 400px;
+}
+.imgtamanho4{
+	margin-left: 2px;
+	width: 190px;
+}
+#pt{
+	margin-left: 140px;
+	height: 150px;
+	width:250px;
+}
+#mt{
+	margin-left: 460px;
+	height: 150px;
+	width:250px;
+}
+#web{
+	margin-top: -253px;
+	margin-left: 790px;
+	height: 150px;
+	width:250px;
+}
+#front{
+	margin-left: 1080px;
+	width:250px;
+}
+#fin{
+	margin-top: 50px;
+	margin-bottom: -126px;
+	margin-left: 10px;
+}
+#oq{
+	font-size: 25px;
+}
+.feito{
+	margin-left: 20px;
+	font-size: 20px;
+	margin-top: 40px;
+}
+.quad{
+	margin-top: -40px;
+	margin-left: 1200px;
+}
